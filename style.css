@@ -22,6 +22,7 @@
 }
 
 body {
+    background: black;
     color: #2f2f2f;
     font-family: 'HelveticaNeueLTPro-Md';
 }
@@ -279,9 +280,14 @@ a:hover, a:active {
     width: 100%;
     height: 22px;
     overflow: hidden;
-    background: #fff;
+    background: #000;
     list-style: none;
     transition: all .35s;
+}
+
+nav.site-navigation * {
+    color: white!important;
+    font-family: sans-serif!important;
 }
 
 .site-navigation.show {
@@ -319,7 +325,7 @@ a:hover, a:active {
 @media screen and (min-width: 768px) {
     .site-header {
         margin-top: 12px;
-        margin-bottom: 40px;
+        margin-bottom: 12px;
     }
 }
 
@@ -334,6 +340,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .hero-slider {
     margin-top: 40px;
+    border-radius: 5px;
 }
 
 .hero-slider img {
@@ -354,7 +361,7 @@ a:hover, a:active {
     width: 54px;
     height: 54px;
     margin-top: -27px;
-    background: #fff;
+    background: transparent;
     transition: all .35s;
 }
 
@@ -1063,7 +1070,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .sit-footer {
     padding-top: 100px;
-    border-top: 1px solid #d8d8d8;
+    border-top: 1px solid #000000;
 }
 
 .footer-post-wrap {
@@ -1181,7 +1188,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .footer-bar {
     padding: 22px 0;
-    background: #2f2f2f;
+    background: #000000;
 }
 
 .footer-copyright p {
