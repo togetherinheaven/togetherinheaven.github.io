@@ -1939,15 +1939,15 @@ nav a:hover {
 
 @media (max-width: 767px) {
   nav a {
-    color: #f67590;
+    color: #ff9853;
   }
   nav a:hover {
-    color: #f67590 !important;
+    color: #a93300 !important;
   }
 }
 
 body {
-  background: #f67590;
+  background: #ff9853;
 }
 
 .main-wrapper-first {
