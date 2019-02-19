@@ -1947,7 +1947,7 @@ nav a:hover {
 }
 
 body {
-  background: #ff9853;
+  background: #020f15;
 }
 
 .main-wrapper-first {
@@ -2063,7 +2063,16 @@ body {
 }
 
 .main-wrapper-first {
-  background: #f66483;
+  position: absolute;
+  z-index: 1000;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  height: 50px;
+  padding: 0;
+  top: 30px;
+  max-width: 1200px;
+  width: 90%;
 }
 
 .banner-content {
@@ -2089,7 +2098,7 @@ body {
 }
 
 .banner-area {
-  background: #ff9853;
+  background: #0a0a0a;
 }
 
 .featured-area {
