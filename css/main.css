@@ -1947,7 +1947,7 @@ nav a:hover {
 }
 
 body {
-  background: #020f15;
+  background: #d88c02;
 }
 
 .main-wrapper-first {
@@ -2102,10 +2102,14 @@ body {
 }
 
 .featured-area {
-  background-color: #2d2023;
-  box-shadow: 0 0 10px -3px black;
-  border-radius: 5px 5px 0 0;
+  background-color: #d88c02;
+  /* box-shadow: 0 0 10px -3px black; */
+  border-radius: 0;
   overflow: hidden;
+}
+
+img.img-fluid {
+    border-radius: 5px;
 }
 
 .single-feature h2 {
